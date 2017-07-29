@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<style>
+  .table{width:50%; }
+ #side { float:left;
+ }
+body {
+	background-image:url("p.jpg");
+	width:100%;
+	height:900px;
+	
+}
+#title {
+	font-family:"Times New Roman", Times, serif;
+	font-style:"italic";
+}
+    </style>  
+<title>Welcome to ARS</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">ARS</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Manage Your Account<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="login.html">Signup</a></li>
+           <li><a href="signup.html">Login</a></li>
+          </ul>
+        </li>
+        <li><a href="BookingPage.html">Book your ticket here</a></li>
+        <li><a href="AboutARS!.html">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+
+ <marquee><h2 id="title">Welcome to Asian Railway Reservation System Book ticket avail discount on shopping centers <strong>Hurry up limited !!</strong></h2></marquee>
+
+  <div class="row">
+    <div class="col-md-4">
+      <table class="table" id="side">
+    <thead>
+      <tr>
+        <th><strong>Sale!</strong></th>
+        <th><strong>Sale!</strong></th>
+        <th><strong>Sale!</strong></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Ticket collector</td>
+        <td>5.5 Lak</td>
+        <td>Uttrakhand</td>
+      </tr>
+      <tr>
+        <td>Cabin crew</td>
+        <td>6.8 lak</td>
+        <td>Jhansi</td>
+      </tr>
+      <tr>
+        <td>Station Manager</td>
+        <td>10.2 lak</td>
+        <td>Noida</td>
+      </tr>
+    </tbody>
+  </table>
+    </div>
+    <div class="col-md-3"> 
+     <form role="form" action="login.jsp" method="get">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email" name="txtemail">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" name="txtpass">
+  </div>
+  <div class=row>
+  <div class="col-sm-9">
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+  </div></div>
+</form>
+    </div>
+    <div class="col-md-3"> 
+      <p></p>
+    </div>
+    <div class="col-md-2">
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a style="color:green" class="dropdown-toggle" data-toggle="dropdown" href="#">Railway Store<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a style="color:orange" href="www.foodpanda.com">Foodpanda</a></li>
+            <li><a style="color:yellow" href="www.amazon.co.uk">Amazon</a></li>  
+             <li><a style="color:blue" href="www.flipkart.com">Flipkart</a></li>                      
+          </ul>
+        </li>
+        <li><a href="#">Menu 2</a></li>
+        <li><a href="#">Menu 3</a></li>
+      </ul>
+    </div>
+    <div class="clearfix visible-lg"></div>
+  </div>
+</div>
+</body>
+</html>

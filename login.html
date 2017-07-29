@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<title>Signup!</title>
+<style>
+body {
+	background-image:url("Bridge.jpg");
+	width:100%;
+	height:100%
+	}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">ARS</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Manage Your Account<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="login.html">Login</a></li>
+           <li><a href="signup.html">Signup</a></li>
+          </ul>
+        </li>
+        <li><a href="signup.html">Book your ticket here</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ <div class="container">
+  <form class="form-horizontal" role="form" method="GET" action="signedup.jsp">
+    <div class="form-group">
+ 
+      <label class="control-label col-sm-2" for="text">First Name:</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="Firstname" placeholder="Enter first Name" name="txtfname">
+      </div>
+    </div>
+      <div class="form-group">
+      <label class="control-label col-sm-2" for="text">Last Name:</label>
+      <div class="col-sm-8">
+        <input type="text" class="form-control" id="Surname" placeholder="Enter SurName" name="txtlname">
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-8">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="txtemail">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-8">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="txtnpass">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Confirm Password:</label>
+      <div class="col-sm-8">          
+        <input type="password" class="form-control" id="cpwd" placeholder="Enter your password to confirm" name="txtcpass">
+      </div>
+    </div>
+    <div><label class="control-label col-sm-2">Select your Gender:</label>
+   <div class="form-group">
+   <table>
+     <tr><td><input type="radio" name="optradio" value="M"></td><td style="margin:2px; padding:5px;">M</td>
+     <td><input type="radio" name="optradio" value="F"></td><td style="padding:5px;">F</td>
+     <td><input type="radio" name="optradio" value="O"></td><td style="padding:5px;">Others</td>
+     </tr>
+   	</table>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+<script>
+
+</script>
+</body>
+</html>
